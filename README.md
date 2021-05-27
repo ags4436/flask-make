@@ -1,4 +1,4 @@
-<img src="https://flask.palletsprojects.com/en/2.0.x/_images/flask-logo.png"></img><br>
+<img src="https://miro.medium.com/max/876/1*0G5zu7CnXdMT9pGbYUTQLQ.png"></img><br>
 # Flask Make - An Automated python script for Flask 
 Flask make is a project made for automating flask project initializing steps where you need to create a python file, templates folder etc.<br>
 Now all these works can be done in a single run with flask-make.py <br>
