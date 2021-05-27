@@ -21,6 +21,7 @@ python flask_make.py -d <dir_name> -p <path>
 
 ```bash
 python flask_make.py -d project -p C:\\users\\name\\Desktop
+python3 flask_make.py -d project -p /home/kali/Desktop
 ```
 # License
 Flask Make is licensed under the MIT License. take a look at the <a href="https://github.com/ags4436/flask-make/blob/master/LICENSE">LICENSE</a> for more information.
