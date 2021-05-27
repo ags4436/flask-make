@@ -5,7 +5,7 @@ Now all these works can be done in a single run with flask-make.py <br>
 All you have to do is, just to clone the repo and run the file.
 
 # Installation
-```
+```bash
 git clone https://github.com/ags4436/flask-make.git
 ```
 
@@ -13,13 +13,13 @@ git clone https://github.com/ags4436/flask-make.git
 The file supports Python 3.
 
 # Execution:
-```
+```bash
 cd flask-make
 python flask_make.py -d <dir_name> -p <path>
 ```
 # Example 
 
-```
+```bash
 python flask_make.py -d project -p C:\\users\\name\\Desktop
 ```
 # License
