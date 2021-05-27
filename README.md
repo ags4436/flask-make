@@ -4,6 +4,8 @@ Flask make is a project made for automating flask project initializing steps whe
 Now all these works can be done in a single run with flask-make.py <br>
 All you have to do is, just to clone the repo and run the file.
 
+[![Github All Releases](https://img.shields.io/github/downloads/ags4436/flask-make/total.svg)]()
+
 # Installation
 ```bash
 git clone https://github.com/ags4436/flask-make.git
