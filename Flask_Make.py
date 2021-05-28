@@ -123,8 +123,11 @@ try:
 
     if flag:
         os.mkdir(path+ chr(92) +"templates")
+        os.mkdir(path+ chr(92) +"static")
     else: 
         os.mkdir(path+ "/templates")
+        os.mkdir(path+ "/static")
+        
     main_file = 'https://raw.githubusercontent.com/ags4436/modules-flask/master/main.py'
     r = requests.get(main_file, allow_redirects=True)
     open('main.py', 'wb').write(r.content)
