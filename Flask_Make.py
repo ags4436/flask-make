@@ -127,7 +127,7 @@ try:
     else: 
         os.mkdir(path+ "/templates")
         os.mkdir(path+ "/static")
-        
+
     main_file = 'https://raw.githubusercontent.com/ags4436/modules-flask/master/main.py'
     r = requests.get(main_file, allow_redirects=True)
     open('main.py', 'wb').write(r.content)
@@ -136,9 +136,14 @@ try:
         os.chdir(path+ chr(92) +"templates")
     else:
         os.chdir(path+ "/templates")
-    html='https://raw.githubusercontent.com/ags4436/modules-flask/master/home.html'
-    r = requests.get(html, allow_redirects=True)
+    home='https://raw.githubusercontent.com/ags4436/modules-flask/master/home.html'
+    r = requests.get(home, allow_redirects=True)
     open('home.html', 'wb').write(r.content)
+    
+    layout="https://raw.githubusercontent.com/ags4436/modules-flask/master/layout.html"
+    r = requests.get(layout, allow_redirects=True)
+    open('layout.html', 'wb').write(r.content)
+
     print("Successfully initiated flask Project")
 
 except:
